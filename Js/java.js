@@ -1,25 +1,23 @@
 let myVariable;
 myVariable = "profileForm";
 
-const myelementsvariable = document.getElementById("output");
+const nameText = document.getElementById("nameInput");
 console.log
 
 let age = document.getElementById("ageInput");
 
-let subbtn = document.getElementById("submitBtn");
+let color = document.getElementById("colorInput");
 
 (document.querySelectorAll("input[type='radio']"));
 
 document.querySelectorAll("input[type='checkbox']");
 
-let Firstname = document.getElementById("firstName");
-let Lastname = document.getElementById("lastName");
-let email = document.getElementById("email");
-let ageInput = document.getElementById("ageInput");
+let pet = document.getElementById("input[type='radio']");
+let hobby = document.getElementById("inpu[type='checkbox']");
+let submit = document.getElementById("submitBtn");
 
-const element = document.getElementById("myBtn");
-element.addEventListener("click", getInfo);
+submit.addEventListener('click', getInfo)
 
 function getInfo() {
-    console.log(luck);
+    console.log(nameText.value);
 }
